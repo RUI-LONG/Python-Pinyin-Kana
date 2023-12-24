@@ -32,9 +32,9 @@ pip install pinyin-kana
 Here's a simple example of how to use the `PronounceConverter` class to convert Chinese text to Katakana:
 
 ```python
-from pinyin_kana import PronounceConverter
+from pinyin_kana import to_katakana
 
-result = PronounceConverter.convert("你好")
+result = to_katakana("你好")
 print(" ".join(result))
 
 print(

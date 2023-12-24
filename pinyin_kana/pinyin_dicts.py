@@ -1,5 +1,5 @@
 # https://github.com/mozillazg/python-pinyin/blob/5fd340381138f61e10d978a877e7954f1940d292/pypinyin/phonetic_symbol.py#L7
-phonetic_symbol = {
+PHONETIC_SYMBOLS = {
     "ā": "a",
     "á": "a",
     "ǎ": "a",
@@ -37,7 +37,7 @@ phonetic_symbol = {
     "ề": "e",
 }
 
-pinyin_to_katakana = {
+PINYIN_TO_KATAKANA = {
     "a": "ア",
     "ai": "アイ",
     "an": "アン",
