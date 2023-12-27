@@ -1,0 +1,23 @@
+# Python build
+.eggs/
+pinyin_kana.egg-info
+dist/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+__tmp/*
+*.pyi
+py.typed
+
+# Tests
+memo.txt
+.coverage
+.pytest_cache/
+coverage.xml
+test.txt
+**/snapshots/**/*.png
+
+# pypi
+.pypirc
