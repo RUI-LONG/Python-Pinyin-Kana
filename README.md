@@ -2,20 +2,30 @@
 
 ## Overview
 
-The `chinese-pronounce-in-kana` library is designed to convert Chinese text into Japanese Katakana characters based on their pronunciation. This can be particularly useful when you want to transcribe Chinese words into a Japanese phonetic script, making it easier for Japanese speakers to understand and pronounce Chinese words.
+This library is designed to convert Chinese text into Japanese Katakana characters based on their pronunciation.
 
-## Features
+<h3>Demo</h3>
 
-- Converts Chinese text to Pinyin using the `pypinyin` library.
-- Replaces Chinese characters with their corresponding phonetic symbols.
-- Converts the phonetic symbols into Japanese Katakana characters.
+> 1. 凱文要不要吃香蕉
 
-## Requirements
+https://github.com/RUI-LONG/Python-Pinyin-Kana/assets/25581309/a974f9e7-61d8-43d2-9a46-a74e57411669
 
-Before using this library, make sure you have the following prerequisites installed:
+> 2. 你應該要被加薪
 
-- Python
-- `pypinyin` library (You can install it using `pip install pypinyin`)
+https://github.com/RUI-LONG/Python-Pinyin-Kana/assets/25581309/4637d939-4e9f-4de5-8230-6112d0c7007b
+
+> 3. 哩喜嘞工三小
+
+https://github.com/RUI-LONG/Python-Pinyin-Kana/assets/25581309/01e95025-5237-40a4-b041-3313794e1f45
+
+
+### Installation
+
+**Prerequisite**: pinyin-kana requires [Python 3.7 or higher](https://www.python.org/downloads/)
+
+```
+pip install pinyin-kana
+```
 
 ## Usage
 
@@ -24,7 +34,10 @@ Here's a simple example of how to use the `PronounceConverter` class to convert 
 ```python
 from pinyin_kana import PronounceConverter
 
-converter = PronounceConverter()
-result = converter.convert("你好")
+result = PronounceConverter.convert("你好")
 print(" ".join(result))
+
+print(
+    f"https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q={'+'.join(result)}"
+)
 ```
