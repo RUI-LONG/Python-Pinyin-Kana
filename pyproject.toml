@@ -7,7 +7,7 @@ name = "pinyin_kana"
 description = "The `chinese-pronounce-in-kana` library is designed to convert Chinese text into Japanese Katakana characters based on their pronunciation."
 readme = "README.md"
 license = { text = "MIT" }
-version = "0.0.4"
+version = "0.0.5"
 requires-python = ">=3.7"
 authors = [
   {name = "Ryan Cheng", email = "m61216051116@gmail.com"}
