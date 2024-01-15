@@ -23,6 +23,8 @@ https://github.com/RUI-LONG/Python-Pinyin-Kana/assets/25581309/01e95025-5237-40a
 
 **Prerequisite**: pinyin-kana requires [Python 3.7 or higher](https://www.python.org/downloads/)
 
+[PYPI](https://pypi.org/project/pinyin-kana/)
+
 ```
 pip install pinyin-kana
 ```
