@@ -1,5 +1,5 @@
 # Chinese Pronounce in Kana
-
+[ZH README](./README-zh.md)
 ## Overview
 
 This library is designed to convert Chinese text into Japanese Katakana characters based on their pronunciation.
